@@ -1,0 +1,10 @@
+
+#define IPCORE_DRV_NAME         "ipcore_axi_"
+#define IPCORE_DRV_NAME_FULL    IPCORE_DRV_NAME"0"
+
+#define IO_IPCORE_DRV_MEMORY_READ   0
+#define IO_IPCORE_DRV_MEMORY_WRITE  1
+#define IO_IPCORE_DRV_WAIT_EVENT    2
+
+#define IO_IPCORE_IRQ_MASK_INT     (1 << 1)
+
